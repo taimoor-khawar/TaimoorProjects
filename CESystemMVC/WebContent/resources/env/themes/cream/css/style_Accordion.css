@@ -1,0 +1,19 @@
+* {margin:0; padding:0;}
+
+#options {width:457px; margin:20px auto; text-align:right; color:#9ac1c9}
+#options a {text-decoration:none; color:#9ac1c9}
+#options a:hover {color:#fee2b2}
+
+#acc {width:659px; min-width:669px; max-width:669px; list-style:none; color:#033; padding:0; margin:0 auto 40px; 	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#acc h3 {width:649px; font-size: 13px; font-weight: bold; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif; text-align: left; border:1px solid #fccc8d; margin:0; padding:6px 6px 8px 12px; margin-top:5px; cursor:pointer; background:url(../images/tc.gif)}
+#acc h3:hover {background:url(../images/bg_th.gif); background-position: top; background-repeat: repeat-x; overflow:visible; z-index:3; background-size: 30px;}
+#acc .acc-section {overflow:hidden; background:#fdf8ec}
+#acc .acc-content {width:649px; max-width:637px; margin:0; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif; padding:15px; border:1px solid #fccc8d; border-top:none; background:#fdf8ec}
+
+
+#nested {width:425px; list-style:none; color:#033; margin-bottom:15px}
+#nested h3 {width:411px; border:1px solid #fccc8d; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(../images/header.gif)}
+#nested h3:hover {background:url(../images/header_over.gif)}
+#nested .acc-section {overflow:hidden; background:#fff}
+#nested .acc-content {width:393px; padding:15px; border:1px solid #fccc8d; border-top:none; background:#fff}
+#nested .acc-selected {background:url(../images/header_over.gif)}

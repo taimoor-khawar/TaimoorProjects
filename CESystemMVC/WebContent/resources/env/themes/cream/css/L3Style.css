@@ -1,0 +1,54 @@
+.bodyBackgroundColor{
+	background-color: #e5e5e5;
+}
+.mainTable{
+	width:450px; 
+	height:318px; 
+	background-color: #fff;
+	
+}
+
+.L3Title {
+	 vertical-align: top;
+	 text-align: center;
+	 padding-top: 1px;
+}
+
+.hint{
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+	color:#d69905;
+	background-color: #ffffff;
+}
+
+.fieldTitle{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #a9a9a9;
+	padding-right:5px;
+}
+.txtFieldStyle{
+	margin-right: 10px;
+	width: 360px;
+	height: 40px;
+	font-size: 11px; 
+	background:#f8f8f8; 
+	border: 1px solid #e9ebeb;
+	padding-left:5px;
+}
+
+.terminusDairytxt{font-size: 15px; color:#5681a4; font-weight:bold;}
+
+.btnSubmitStyle{
+	margin-right:10px;
+	width: 75px;
+	height: 19px;
+	text-align: center;	
+	font-size: 11px;		
+	color:#FFF;	
+	border:none;
+	background:#ff8400;
+}

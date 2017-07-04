@@ -1,0 +1,516 @@
+.ME_LoginButton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 8px; BORDER-TOP: 0px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #90bff7; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; COLOR: white; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif; TEXT-ALIGN: center
+}
+.ME_LoginButton:hover {
+	FONT-SIZE: 11px; BACKGROUND: #c6dcf7; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.ME_Button {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(tbback.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.ME_LoginDropDownList {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif
+}
+.ME_Input {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif
+}
+.ME_ToolBarButton {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(tbback.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif; TEXT-ALIGN: center
+}
+UNKNOWN {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana, Arial, SansSerif
+}
+.ME_Table {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-ALIGN: left
+}
+.ME_TableHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: gray; TEXT-ALIGN: left
+}
+.ME_List0 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #f5f5f3
+}
+.ME_List1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #ecebe8
+}
+.ME_BoldList0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #f5f5f3
+}
+.ME_BoldList1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #ecebe8
+}
+.ME_ListHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: gold
+}
+.ME_MessageHeader {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #d7e0e8
+}
+.ME_MessageHeader A {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+.ME_DropDownList {
+	FONT-SIZE: 11px; COLOR: #1f1f1f; FONT-FAMILY: Tahoma,Verdana,Arial,SansSerif
+}
+.ME_Nolink {
+	COLOR: black; TEXT-DECORATION: none
+}
+.ME_FolderPanel {
+	FONT-SIZE: 11px; BACKGROUND-IMAGE: url(Men_body_bg.gif); BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: #ffffff
+}
+A.ME_FolderPanel:visited {
+	TEXT-DECORATION: none
+}
+.ME_FolderPanel A {
+	FONT-SIZE: 11px; COLOR: black
+}
+.ME_ButtonBG {
+	BORDER-TOP: #999999 1px solid; BACKGROUND-COLOR: #9ebef5
+}
+.ME_RowNormal {
+	FONT-SIZE: 11px; BACKGROUND: white
+}
+.ME_RowSelect {
+	FONT-SIZE: 11px; BACKGROUND: #d7e0e8; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_RowSelectBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #d7e0e8; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_TableHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana; TEXT-ALIGN: left
+}
+.ME_MessagesListHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Tahoma,Verdana, Arial; BACKGROUND-COLOR: #666666
+}
+.ME_MenuCap {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #9ebef5; TEXT-ALIGN: center
+}
+.ME_MenuCapText {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana; TEXT-ALIGN: center
+}
+.ME_Selected {
+	FONT-SIZE: 11px; COLOR: #336699; FONT-FAMILY: Tahoma,Verdana, Verdana
+}
+BODY.ME_Foldermenu {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #9ebef5; TEXT-ALIGN: left
+}
+BODY.ME_Messages {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_ColHeader {
+	FONT-WEIGHT: bolder; COLOR: white; FONT-FAMILY: Tahoma,Arial, Verdana; TEXT-DECORATION: underline
+}
+A.ME_ColHeader:hover {
+	FONT-WEIGHT: bolder; COLOR: white
+}
+A.ME_ColHeader:link {
+	FONT-WEIGHT: bolder; COLOR: Blue
+}
+A.ME_ColHeader:visited {
+	FONT-WEIGHT: bolder; COLOR: Blue
+}
+.ME_Header {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana, Arial; BACKGROUND-COLOR: #9ebef5; TEXT-DECORATION: none
+}
+.ME_HeaderText {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana, Arial; TEXT-DECORATION: none
+}
+.ME_HeaderTextHighlight {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Tahoma,Verdana, Arial; TEXT-DECORATION: none
+}
+.ME_Field {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_FieldLabel {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_Bar {
+	HEIGHT: 7px; BACKGROUND-COLOR: deepskyblue
+}
+.ME_BarMain {
+	FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: lightgrey
+}
+.ME_CommandPanel {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; MARGIN-TOP: 2px; PADDING-LEFT: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: Tahoma,Verdana; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.ME_CommandPanelLabel {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; MARGIN-TOP: 2px; PADDING-LEFT: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 0px solid; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: Tahoma,Verdana; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.ME_CommandPanelLabel:link {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+.ME_CommandPanelLabel:hover {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+.ME_CommandPanelLabel:visited {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+.ME_CommandPanelValue {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; MARGIN-TOP: 2px; PADDING-LEFT: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: Tahoma,Verdana; HEIGHT: 12px
+}
+.ME_Toolbar {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; MARGIN-TOP: 2px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: black 0px solid; HEIGHT: 12px; TEXT-DECORATION: none
+}
+A.ME_Toolbar {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; MARGIN-TOP: 2px; PADDING-LEFT: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: black 0px solid; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.ME_Toolbar:hover {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 1px; COLOR: blue; PADDING-TOP: 1px; BACKGROUND-COLOR: #ffe1ac; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none
+}
+A.ME_Toolbar:hover {
+	TEXT-DECORATION: none
+}
+A.ME_Toolbar:visited {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A.ME_Toolbar:active {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A.ME_Toolbar:link {
+	COLOR: blue; TEXT-DECORATION: none
+}
+BODY.ME_Topmenu {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #9ebef5; TEXT-ALIGN: left
+}
+.ME_TabOn {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_TabOff {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_Message {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Verdana
+}
+ME_AddContactLink {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_AddContactLink {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_AddContactLink:active {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_AddContactLink:link {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_AddContactLink:visited {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_Link {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_Link:active {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_Link:link {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_Link:visited {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana
+}
+A.ME_HeaderText {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+A.ME_HeaderText:link {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+A.ME_HeaderText:active {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+A.ME_HeaderText:visited {
+	COLOR: black; FONT-FAMILY: Tahoma,Verdana; TEXT-DECORATION: none
+}
+PRE.ME_Plaintext {
+	FONT-SIZE: 12px; WIDTH: 100%; FONT-FAMILY: Tahoma,Verdana
+}
+.ME_StandardText {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma,Verdana, Arial
+}
+.ME_StandardTextSmall {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma,Verdana, Arial
+}
+INPUT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana, Arial
+}
+SELECT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana, Arial
+}
+TEXTAREA {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma,Verdana, Arial
+}
+.ME_OptionHeader {
+	BORDER-TOP: mediumblue 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; COLOR: darkblue; BORDER-BOTTOM: mediumblue 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #9ebef5
+}
+.ME_NavCalDayStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalBusyDayStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalTodayStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalTodayPanel {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalDayName {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalSelectedItemStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalOtherMonthDayStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalTitleStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalMonthStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalYearStyle {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_CalendarYearMonthHeader {
+	FONT-SIZE: 13px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_CalendarYearSpecialMonthHeader {
+	FONT-SIZE: 13px; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.ME_NavCalDayStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalBusyDayStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalTodayStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalTodayPanel {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalOtherMonthDayStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalMonthStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalYearStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalTitleStyle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_CalendarYearCell {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_CalendarYearMonthHeader {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_CalendarYearSpecialMonthCell {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_CalendarDay {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalDayStyle {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+.ME_NavCalBusyDayStyle {
+	FONT-WEIGHT: bold; COLOR: black
+}
+.ME_NavCalBusyDayStyle A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.ME_NavCalTodayStyle {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #ff9900
+}
+.ME_NavCalTodayStyle A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.ME_NavCalDayName {
+	FONT-WEIGHT: bold; COLOR: #00008b; BACKGROUND-COLOR: #9ebef5
+}
+.ME_NavCalTodayPanel {
+	FONT-WEIGHT: bold; COLOR: #00008b; BACKGROUND-COLOR: #9ebef5
+}
+.ME_NavCalTodayPanel A {
+	FONT-WEIGHT: bold; COLOR: #00008b; TEXT-DECORATION: none
+}
+.ME_NavCalDayName {
+	BORDER-LEFT-COLOR: black; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black
+}
+.ME_NavCalSelectedItemStyle {
+	BACKGROUND-COLOR: #ffcc66
+}
+.ME_NavCalOtherMonthDayStyle {
+	COLOR: black; BACKGROUND-COLOR: #dddddd
+}
+.ME_NavCalTitleStyle {
+	FONT-WEIGHT: bold; COLOR: white; BACKGROUND-COLOR: #747c89
+}
+.ME_NavCalTitleStyle A {
+	FONT-WEIGHT: bold; COLOR: white; TEXT-DECORATION: none
+}
+.ME_NavCalMonthStyle {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+.ME_NavCalYearStyle {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+.ME_CalendarTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #747c89; TEXT-ALIGN: center
+}
+.ME_CalendarTitle A {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.ME_CalendarYearCell {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana
+}
+.ME_CalendarYearSpecialMonthCell {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana
+}
+.ME_CalendarYearCell {
+	BACKGROUND-COLOR: white
+}
+.ME_CalendarYearMonthHeader {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: #cedefa
+}
+.ME_CalendarYearSpecialMonthHeader {
+	BORDER-TOP-WIDTH: 2px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 2px; BORDER-LEFT-COLOR: red; BORDER-BOTTOM-WIDTH: 2px; BORDER-BOTTOM-COLOR: red; COLOR: white; BORDER-TOP-COLOR: red; BACKGROUND-COLOR: #ff9900; BORDER-RIGHT-WIDTH: 2px; BORDER-RIGHT-COLOR: red
+}
+.ME_CalendarYearSpecialMonthCell {
+	FONT-SIZE: 11px; BACKGROUND-COLOR: #ffcc99
+}
+.ME_CalendarTodayHeader {
+	VERTICAL-ALIGN: top; COLOR: black
+}
+.ME_CalendarToday {
+	BORDER-RIGHT: #ff9933 2px solid; BORDER-TOP: #ff9933 2px solid; BORDER-LEFT: #ff9933 2px solid; COLOR: black; BORDER-BOTTOM: #ff9933 2px solid; BACKGROUND-COLOR: white
+}
+.ME_CalendarDay {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+.ME_CalendarWeekendDay {
+	BACKGROUND-COLOR: #f5f8fe
+}
+.ME_CalendarDayHeader {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana
+}
+.ME_CalendarTodayHeader {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana
+}
+.ME_CalendarWeekendDayHeader {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana
+}
+.ME_CalendarDayHourHeader {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana
+}
+.ME_CalendarOtherMonthDayHeader {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana
+}
+.ME_CalendarDayHourHeader {
+	COLOR: #00008b; BACKGROUND-COLOR: #9ebef5
+}
+.ME_CalendarDayHeader {
+	VERTICAL-ALIGN: top; COLOR: black
+}
+.ME_CalendarWeekendDayHeader {
+	VERTICAL-ALIGN: top; COLOR: black
+}
+.ME_CalendarOtherMonthDayHeader {
+	VERTICAL-ALIGN: top; COLOR: black
+}
+.ME_CalendarOtherMonthDay {
+	COLOR: black; BACKGROUND-COLOR: #dddddd
+}
+.ME_CalendarOtherMonthDayHeader {
+	COLOR: black
+}
+.ME_CalendarToday {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; FONT-FAMILY: Verdana
+}
+.ME_CalendarDay {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; FONT-FAMILY: Verdana
+}
+.ME_CalendarWeekendDay {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; FONT-FAMILY: Verdana
+}
+.ME_CalendarOtherMonthDay {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; FONT-FAMILY: Verdana
+}
+.ME_ExtNavCalendarTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #00008b
+}
+.ME_ExtNavCalendarNextPrev {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #00008b
+}
+.ME_ExtNavCalendarDate {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.ME_ExtNavCalendarDayHeader {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.ME_ExtNavCalendarTodayDate {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.ME_ExtNavCalendarSelectedDate {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.ME_ExtNavCalendarOtherMonthDate {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.ME_ExtNavCalendarTitle {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BACKGROUND-COLOR: #6495ed; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: black
+}
+.ME_ExtNavCalendarDate {
+	BACKGROUND-COLOR: white
+}
+.ME_ExtNavCalendarDayHeader {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; COLOR: blue; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #99ccff
+}
+.ME_ExtNavCalendarTodayDate {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: #ff9900
+}
+.ME_ExtNavCalendarSelectedDate {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: #ffcc66
+}
+.ME_ExtNavCalendarWeekendDate {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; COLOR: #ff0000; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: white
+}
+.ME_ExtNavCalendarOtherMonthDate {
+	COLOR: red; BACKGROUND-COLOR: #d3d3d3
+}
+#ScrollDiv {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BACKGROUND-IMAGE: url(Men_body_bg.gif); OVERFLOW: auto; BORDER-LEFT: 1px solid; WIDTH: auto; BORDER-BOTTOM: 1px solid; BACKGROUND-REPEAT: repeat-y; POSITION: relative; HEIGHT: 220px; BACKGROUND-COLOR: white
+}
+#divUsage {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BACKGROUND-IMAGE: url(Men_body_bg.gif); OVERFLOW: auto; BORDER-LEFT: 1px solid; WIDTH: auto; BORDER-BOTTOM: 1px solid; BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: white
+}
+.divScrollable {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(Men_body_bg.gif); OVERFLOW: auto; BORDER-LEFT: 1px solid; WIDTH: auto; BORDER-BOTTOM: 1px solid; BACKGROUND-REPEAT: repeat-y; POSITION: relative; HEIGHT: 220px; BACKGROUND-COLOR: white
+}
+.ME_MessagesPanel {
+	OVERFLOW: auto; HEIGHT: 200px
+}
+.ME_UnreadMessage {
+	FONT-WEIGHT: bold
+}
+.ME_MessagesListHeader A {
+	COLOR: white; TEXT-DECORATION: none
+}
+.ME_MessagesListHeader A:link {
+	TEXT-DECORATION: none
+}
+.ME_MessagesListHeader A:hover {
+	TEXT-DECORATION: none
+}
+.ME_MessagesListHeader A:visited {
+	TEXT-DECORATION: none
+}
+.ME_Normal {
+	FONT-SIZE: 11px
+}
+.ME_FrameBody {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana; BACKGROUND-COLOR: #f5f5f3
+}
+.ME_FreeTextBox {
+	BACKGROUND-COLOR: #9ebef5; background-tab-off: #81a9e2
+}

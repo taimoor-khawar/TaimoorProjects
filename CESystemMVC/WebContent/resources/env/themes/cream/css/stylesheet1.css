@@ -1,0 +1,661 @@
+body {
+	margin: .5%;
+	font-family:Arial, Helvetica, sans-serif;
+	scrollbar-base-color: #b4e3ed;
+	scrollbar-arrow-color: #e7ecff;
+	scrollbar-darkshadow-color: #e7ecff;
+	scrollbar-shadow-color: #e7ecff;
+	background:#f1efef;
+	
+}
+
+#about{ width:100%; -webkit-border-radius:5px; moz-border-radius:5px; border-radius:5px; background:#fff; margin-top:-11px; padding-top:2%; }
+
+.company_detail_box{float:right; width:82.5%;  -webkit-border-radius:5px; moz-border-radius:5px; border-radius:5px;}
+
+.company_detail_box1{width:94%; float:left;}
+
+.company_detail_box3{width:94%; float:left; margin-right:20px; margin-top:20px;}
+
+.company_text_box{background:#e7ecff; width:100%; line-height:24px; padding-left:10px; color:#6a6a6a; font-size:10px; margin-bottom:10px;}
+
+.company_text_box1{background:#f8f9fd; width:100%; line-height:24px; padding-left:10px; color:#6a6a6a; font-size:10px; margin-bottom:10px;}
+
+.welcome_bg1{float:left; width:275px; height:275px; margin:10% 0 5% 20%; }
+
+
+
+.company_logo{width:135px; height:58px; float:right; background:url(../images/logo_company.gif) center no-repeat; }
+
+.welcome_bg{width:100%; line-height:24px; float:left; font-size:12px; margin-left:5px; color:#6a6a6a; margin-top:5px; }
+
+.icons_box{width:100%; height:auto; float:left; margin:5px 0 0 5px ;}
+
+.home_icon{width:10px; height:11px; float:left; margin-left:2%;}
+
+.home_txt{ float:left; margin:0 1% 0 1%;}
+
+.home_txt a{font-size:10px; color:#949494; text-decoration:none;}
+
+
+
+
+
+.logo_box{width:91%; height:auto; float:left; -webkit-border-radius:5px; moz-border-radius:5px; border-radius:5px; padding-left:3%; }
+
+
+.menu_box{width:94%; float:left; height:575px; background:#fff; padding:3%; overflow:auto;}
+
+
+
+.pageBreak{
+	page-break-after: always;
+}
+a{color: #024b5b; font-size: 11px;}
+a:hover{text-decoration: none;}
+th{
+	height: 22px;
+	font-size: 11px;
+	font-weight: bold;	
+	text-align: center;
+	background-color: #e7ecff;	
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFF;
+	cursor: pointer; * cursor: hand; 
+}
+
+.logo {
+	 background-color:#FFF;
+	  
+	 
+}
+
+.bodyBGColor{
+	
+	
+	background:#FFFFFF;	
+}
+
+.box{
+	border: 1px solid orange;
+}
+
+.menuBodyBGColor{	
+	margin-top:10px;
+	margin-left:2px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px; 
+	border-radius:5px; 
+	background:#fff;
+	
+	
+}
+
+#this.AddEventListener{}
+
+.menuBGbox{width:35%; float:left; -webkit-border-radius:5px;moz-border-radius: 5px; border-radius:5px; background:#fff; padding:3%; border:1px solid red;}
+
+.tblMain{
+	width: 99%;
+	border-collapse: collapse;
+}
+
+.tblSetting{
+	width: 99%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.centerPageBGColor {
+	
+	
+}
+.centerPageTopBorder {
+		background-color:#F00;
+}
+.centerPageRightBorder {
+	
+	padding-bottom: 20px;
+}
+.centerPageBottomBorder {
+		
+}
+.LayoutHeight {
+	 height: auto;
+	 vertical-align: top;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+}
+
+.LayoutHeight2 {
+	 height: 436px;
+	 
+}
+
+.tblGrid{
+	width: 99%;
+	border-color: #fff;
+	border-collapse: collapse;
+	layout-grid: 1px solid red;
+	text-align: left;
+}
+
+TABLE.tblGrid TD{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFF;
+	padding-left:4px;
+	padding-right:3px;
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size: 11px;
+	
+}
+
+TABLE.tblGrid a{color: #cc0000; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+TABLE.tblGrid a:visited{color: orange; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+TABLE.tblGrid a:hover{color: #cc0000; text-decoration: none; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+
+
+
+
+.tblGrid2{
+	width: 24%;
+	
+	border-color: #fccc8d;
+	border-collapse: collapse;
+	layout-grid: 1px solid red;
+	text-align: left;
+}
+
+TABLE.tblGrid2 TD{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fccc8d;
+	padding-left:4px;
+	padding-right:3px;
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+TABLE.tblGrid2 a{color: #cc0000; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+TABLE.tblGrid2 a:visited{color: orange; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+TABLE.tblGrid2 a:hover{color: #cc0000; text-decoration: none; font-size: 11px; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+.container{
+	height:auto;	
+	width: 100%;
+	padding-bottom:30px; 
+	vertical-align: top;
+
+}
+.pageHead{
+	font-size: 15px;
+	color: #003399;
+	font-weight: bold;	
+	line-height:30px;
+	
+}
+.pageTitle{
+	width:90%;
+	height: 28px;
+	vertical-align : middle;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	
+}
+
+CAPTION	{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+LEGEND	{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #c35810;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+FIELDSET {
+	width: 100%;
+	border:none;	
+	padding-bottom: 10px;
+}
+.dispFieldTitle{
+	color:#6a6a6a;	
+	font-size: 11px;	
+	text-align: right;
+}
+.NewDispFieldTitle{
+	color: #cd7423;
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	height:25px;
+}
+.dispFieldTitleNormal{
+	color: #cd7423;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.dispFieldTitleText{
+	color: #cd7423;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.normalText{
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#333;
+	padding-left:5px;
+}
+.normalTextBold{
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}	
+.normalCenterText{
+	font-size: 11px;
+	text-align: center;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.txtInput{
+	height: 19px;	
+	font-size: 11px;
+	background:#f8f8f8; border:1px solid #e9ebeb;
+	padding-left: 2px;
+}
+txtInput2{
+	height: 19px;	
+	font-size: 5px;
+	background:#f8f8f8; border:1px solid #e9ebeb;
+	padding-left: 2px;
+}
+.btnInput{
+	
+	font-size: 11px;	
+	width: 100px;		
+	line-height:19px;
+	height:19px; 
+	border:none; 
+	background:#ff8400; 
+	color:#FFF; 
+	text-align:center; 
+	cursor:pointer; 
+	
+}
+
+.btnInput:hover{background:#ee7c02; color:#FFF;}
+
+.btnRadio{
+	background-color: #fef3d3;
+}
+.chkBox{
+	background-color: #fef3d3;
+}
+.selListBox{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #f8f8f8;
+	border:1px solid #e9ebeb;
+}
+.btnNav{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 22px;
+	padding-bottom: 2px;
+	color:#FFF;
+	font-weight: bold;
+	background-color: #ff8400;
+	border: 1px solid #c99d66;	
+	cursor: pointer; * cursor: hand; 
+}
+
+.btnNav:hover{background:#ee7c02; color:#FFF;}
+
+.reqField {
+	background-color: red;
+	width: 3px;
+	height: 16px;
+	vertical-align: bottom;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.reqFieldLegend {
+	width: 100%;
+	text-align: right;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #cc3300;
+	font-size: 11px;
+}
+
+.txtArea {
+	scrollbar-base-color: #ffecc2;
+	scrollbar-arrow-color: #F9A970;
+	scrollbar-darkshadow-color: #F9A970;
+	scrollbar-shadow-color: #F9A970;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #fccc8d;
+	padding-left: 3px;
+	padding-right: 3px;
+	background:#f8f8f8; border:1px solid #e9ebeb;
+}
+
+.rowHighLight{
+	background-color: #feedc7;
+}
+.errorMessage {
+	text-align: center;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	font-size: 11px;
+}
+.alertTitle{
+	height: 23px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	background-color: #e7ecff;	
+	color: #d3420a;
+	font-weight: bold;
+}
+.redMessage{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	width:500px;
+	height:50px;
+	vertical-align:top;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:30px;
+}
+.greenMessage{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+	width:500px;
+	height:50px;	
+	vertical-align:top;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:30px;
+}
+
+.alertMessage{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	color: #d3420a;
+	font-weight: bold;
+	width:500px;
+	height:50px;
+	background-image: url('../images/bg_err_msg.gif');
+	background-repeat: repeat-X;
+	border: 1px solid #ffd793;
+	vertical-align:top;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:30px;
+}
+.replyAdmin{	
+	background-repeat: repeat-X;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align:top;	
+	padding-bottom:10px;
+	border:1px solid #e9ebeb;
+}
+.statusNew{
+	color: #3366FF;
+}
+.statusActive{
+	color: green;
+}
+.statusCloseAccount {
+	color: maroon;
+}
+.errorSpace {
+	width: 500px;
+	text-align: center;
+}
+
+.tooltip{
+	width: 400px;
+}
+.tooltip_title{
+	background-image: url('../images/tc.gif');
+	background-repeat: repeat-x; 
+	text-align:center; 
+	font-size:14px; 
+	font-family: Trebuchet MS; 
+	text-align: center; 
+	color:#CC3333;
+	font-weight: bold;
+}
+.tooltip_ml{
+	background-image: url('../images/lct.gif');
+	background-repeat: repeat-y; 
+}
+.tooltip_text{
+	background-color: #fef3d3; 
+	font-size:11px; 
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.tooltip_bc{
+	background-image: url('../images/bc.gif');
+	background-repeat: repeat-x; 
+}
+
+
+.totalValue{
+	height: 22px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	background-color: #fee2b2;
+	background-image: url("../images/tc.gif");
+	background-position: top;
+	background-repeat: repeat-x;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fccc8d;
+	}
+	
+.boxLine {
+	border: 1px solid #fccc8d;
+	padding:10px;
+}
+
+.tdstyl{
+	width: 42px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fccc8d;
+	padding-left:4px;
+	padding-right:3px;
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.crheads{
+	color:#D3420A; 
+	font-size: 14px; 
+	padding: 14px 0 10px 0; 
+	font-family: Trebuchet MS,Verdana,Geneva,Arial,Helvetica,sans-serif; 
+	font-weight: bold;
+}
+
+table.tablesorter thead tr th.header {
+ 	background-image: url(../images/bg.gif);
+ 	background-repeat: no-repeat;
+ 	background-position: center right;
+ 	cursor: pointer;
+}
+
+table.tablesorter thead tr th.headerSortUp {
+ 	background-image: url(../images/asc.gif);
+}
+
+table.tablesorter thead tr th.headerSortDown {
+ 	background-image: url(../images/desc.gif);
+}
+
+
+/*
+table.tablesorter tbody tr.odd td {
+	background-color:#f5f5f6;
+}
+table.tablesorter tbody tr.even td {
+	background-color:#FFF;
+}
+*/
+table.tablesorter tbody tr.odd {
+	background-color:#E6E6E6;
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #FEFBF1;
+}
+
+.even.rowHover,
+.odd.rowHover {
+    background-color: #FAFA9D !important;
+}
+
+.d0{
+background-color: #f5f5f6; color: black;
+}
+.d1{
+background-color: #E6E6E6; color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {text-decoration:none;}
+
+.treeview, .treeview ul  { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#024b5b;
+	line-height:15px;
+
+	
+	
+	
+}
+
+.treeview ul {	
+	margin-top: 4px;
+	
+}
+
+.treeview .hitarea {
+	background:url(../images/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+	
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+	
+	
+}
+
+.treeview a.selected {
+	background-color: #eee;
+	
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color:#ff8400; cursor: pointer; }
+
+.treeview li { background: url(../images/treeview-default-line.gif) 0 0 no-repeat;   }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(../images/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+ 
+
+
+.treeview .placeholder {
+	background: url(images/ajax-loader.gif) 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 16px; display: block; }
+.filetree span.folder { background: url(../images/folder.png) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(../images/folder-closed.png) 0 0 no-repeat; }
+.filetree span.file { background: url(../images/file.png) 0 0 no-repeat; }

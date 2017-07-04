@@ -1,0 +1,35 @@
+ .menuLink{
+ 	color: #cc3300;
+	font-size: 11px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+ }
+ul.SimpleContextMenu {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 12px;
+    list-style-type: none;
+    border-top: 1px solid #ea9c5e;
+    border-left: 1px solid #ea9c5e;
+    border-right: 1px solid #ea9c5e;
+}
+
+  ul.SimpleContextMenu li {
+      border-bottom: 1px solid #ea9c5e;
+  }
+
+  ul.SimpleContextMenu li a {
+      display: block;
+      width: 160px;
+      padding: 2px 10px 2px 10px;
+      text-decoration: none;
+	  color: red;
+      background: #fdf8ec;
+  }
+
+  ul.SimpleContextMenu li a:hover {
+      text-decoration: none;
+      background: #fee5a9;
+  }

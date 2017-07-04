@@ -1,0 +1,55 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	background-image:url(../images/main-bg.jpg);
+	background-repeat:no-repeat;
+
+}
+
+.maintext{
+	font-size:15px;
+	line-height:17px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.maintext a{
+	font-size:15px;
+	line-height:17px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.maintext a:hover{
+	font-size:15px;
+	line-height:17px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.sign{
+	font-size:12px;
+	color:#000;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.signup{
+	font-size:50px;
+	color:#024b5b;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.signuptext{
+	font-size:14px;
+	color:#000;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.mainfield{ height:34px; border-color:#024b5b; border-style:solid; padding-left:10px; border-width:1px; background:none; font-size:14px; color:#919191;}
