@@ -45,9 +45,6 @@ if( us != null){
 	                <li>
 	                    <a href="./userdetails">UserDetails</a>
 	                </li>
-	                 <li>
-	                    <a href="./userdetail">UserDetail</a>
-	                </li>
                 <li >
                     <a  href="./addusertype">Add User Type</a>
                 </li>

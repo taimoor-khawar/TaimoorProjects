@@ -87,18 +87,18 @@ if( us != null){%>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-               <%if (us.getSysuser().getUsertypeid() !=1){ %>
-	            <li>
-                    <a href="./UpdateUser.jsp">Edit Detail</a>
+                <%if(us.getSysuser().getUsertypeid() != 1){ %>
+	            <li >
+                    <a href="./UpdateUser.jsp?UserID=<%=us.getSysuser().getSysUserID()%>">Edit Detail</a>
                 </li>
-               <%} %>
+                <%} %>
                  <li>  
-                    <a href="./filerecord">Add File Record</a>
+                    <a href="./AddFileRecord.jsp?EnterpriseID=<%=us.getSysuser().getSysUserID()%>">Add File Record</a>
                 </li>
                 <li>
-                    <a href="./showfilerecord">Show File Record</a>
+                    <a href="./ShowFileRecord.jsp">Show File Record</a>
                 </li>
-               
+                <%if(us.getSysuser().getUsertypeid() == 1){ %>
                 <li >
 	                    <a  href="./AddUser.jsp">Add User</a>
 	                </li>
@@ -118,10 +118,10 @@ if( us != null){%>
                     <a href="./ContactUs.jsp">Contact US</a>
                 </li>
 
-               
+                <%} %>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                <li><button type="submit"><span class="glyphicon glyphicon-log-in" style="padding-right: 5px;"></span>Logout</button></li>
+                <ul class="nav navbar-nav navbar-right" style="margin-top: 10px;">
+                <li><button type="submit"><span class="glyphicon glyphicon-log-in" style="padding-right: 5px;"></span>Logout</button>
             </ul>
             </div>
             <!-- /.navbar-collapse --></form>
@@ -173,11 +173,11 @@ if( us != null){%>
         <input type="text" class="form-control" id="accesscode" name="accessCode" placeholder="Enter Access Code" style="width: 400px;float: left;">
       </div>
     </div>
- <div class="form-group">
+ <%--    <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">User Type:</label>
       <div class="col-sm-10">          
-        <select id="UserTypeID" name="userTypeID" class="form-control" style="width: 400px;float: left;">
-        <option value="0">Select User Type</option>
+        <select id="UserTypeID" name="UserTypeID" class="form-control" style="width: 400px;float: left;">
+        <option value="0">Select UserType</option>
          <c:forEach var="contact" items="${usertypelist}" varStatus="status">
 	  	  <c:if test="${contact.userTypeID != 1 }">
         	<option value="${contact.userTypeID}">${contact.userTypeName}</option>
@@ -186,7 +186,7 @@ if( us != null){%>
         </select>
       </div>
     </div>
-<div class="form-group">        
+ --%>    <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10" align="left">
         <button type="submit" class="btn btn-primary">ubmit</button>
        

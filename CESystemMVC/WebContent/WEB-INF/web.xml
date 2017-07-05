@@ -18,5 +18,12 @@
 	        <el-ignored>true</el-ignored>
 	    </jsp-property-group>
 	</jsp-config> -->
-	
+	<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/spring-servlet.xml</param-value>
+	</context-param>
+
+	<listener>
+	    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>	
 </web-app>

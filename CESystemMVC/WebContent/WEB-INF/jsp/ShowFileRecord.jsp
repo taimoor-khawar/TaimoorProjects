@@ -6,8 +6,8 @@
 SysUserSession us = (SysUserSession)session.getAttribute(session.getId());
 if( us != null){
 	%>
-<html xmlns:th="http://www.thymeleaf.org">
-<head lang="en">
+<html>
+<head>
   <title>College Education File System</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

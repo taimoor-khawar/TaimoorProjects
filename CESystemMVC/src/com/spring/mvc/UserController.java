@@ -21,16 +21,9 @@ public class UserController {
 	@Autowired  
     LoginDAO dao;
 	
-	
 	@RequestMapping(value="/adduser") 
     public ModelAndView adduser(){ 
-		ModelAndView userview = new ModelAndView();
-		List<UserType> usertypelist = dao.getUserTypes();
-		userview.addObject("usertypelist", usertypelist);
-		userview.setViewName("AddUser");
-		userview.addObject("command",new UserDetails());
-		//return ModelAndView("AddUser","command",new UserDetails());
-		return userview;
+		 return  new ModelAndView("AddUser","command",new UserDetails());
     }
 	
 	@RequestMapping(value="/adduserrecord",method = RequestMethod.POST)  
